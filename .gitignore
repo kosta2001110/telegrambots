@@ -1,0 +1,20 @@
+# Секретные файлы
+.env
+*.env
+
+# Сессии Telegram
+*.session
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

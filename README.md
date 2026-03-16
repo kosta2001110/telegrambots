@@ -1,24 +1,15 @@
-# 📚 Telegram Parser + ML
+# 📚 Telegram Parser + ML Project
 
-Парсер книг с books.toscrape.com + ML анализ + Telegram-бот
+Парсер книг с books.toscrape.com + Telegram-бот + ML анализ + автозапуск
 
 ## 🚀 Возможности
 
-- ✅ Парсинг многостраничного каталога
+- ✅ Многостраничный парсинг (BeautifulSoup + requests)
 - ✅ Сохранение в SQLite базу данных
-- ✅ Telegram-бот с уведомлениями
-- ✅ ML анализ цен (линейная регрессия)
+- ✅ Экспорт в CSV/JSON + статистика
+- ✅ Telegram-бот с уведомлениями о новых книгах
+- ✅ Автозапуск по расписанию (schedule)
+- ✅ Логирование ошибок в файл
+- ✅ ML анализ: Linear Regression, Decision Tree, Random Forest
 
-## 📁 Файлы
-
-- `day1_parser.py` — простой парсер (20 книг)
-- `day2_parser.py` — парсер 200 книг
-- `day3_database.py` — парсер с SQLite
-- `day3_bot.py` — Telegram-бот
-- `day2_analysis.ipynb` — анализ данных
-- `day3_ml.ipynb` — ML модели
-
-## 🛠 Установка
-
-```bash
-pip install requests beautifulsoup4 pandas sqlite3 pyTelegramBotAPI scikit-learn
+## 📁 Структура проекта
